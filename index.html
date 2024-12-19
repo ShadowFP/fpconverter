@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FP Multi Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="grey-area">
+        <h2>FP Multi Unit Converter</h2>
+        
+        <!-- Conversão Section -->
+        <div>
+            <h3>Unit Conversion</h3>
+            <p>Enter a measurement in meters:</p>
+            <input type="number" id="input-value" placeholder="Enter value in meters">
+            <button id="convert-btn">Convert to FlightPoint Blocks</button>
+
+            <!-- Área para resultado da conversão -->
+            <div id="conversion-result"></div>
+        </div>
+
+        <!-- Aircraft Search Section -->
+        <div>
+            <h3>Aircraft List</h3>
+            <input type="text" id="search-input" placeholder="Search aircraft...">
+            <ul class="aircraft-list">
+                <!-- Aircraft list will be populated dynamically -->
+            </ul>
+
+            <!-- Área para detalhes da aeronave -->
+            <div id="aircraft-details"></div>
+        </div>
+    </div>
+
+    <div class="legend">
+        <p>L = Length, W = Wingspan, H = Height</p>
+    </div>
+
+    <div class="disclaimer">
+        <p><strong>Disclaimer:</strong> This site was created with ChatGPT, and measurements may not be 100% accurate.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+

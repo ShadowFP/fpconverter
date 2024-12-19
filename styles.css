@@ -1,0 +1,73 @@
+/* Ajustes Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c2f36;
+    color: white;
+}
+
+/* Cinza - Melhorado para ser mais equilibrado e escuro */
+.grey-area {
+    background-color: #3e3f4b; /* Tom mais escuro de cinza */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Input de Conversão */
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Lista de Aeronaves */
+.aircraft-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.aircraft-list li {
+    padding: 8px;
+    background-color: #474854;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.aircraft-list li span {
+    color: #cccccc;
+    font-size: 0.8em;
+    margin-left: 8px;
+}
+
+/* Legenda */
+.legend {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #2c2f36;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    color: white;
+}
